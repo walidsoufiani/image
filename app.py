@@ -54,6 +54,6 @@ with st.sidebar:
 
 
 if sidebar_selection == 'Home':
-    video_file = open('exemple_image/logo1.jpeg', 'rb')
+    video_file = open('exemple_image/Flechtec.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
