@@ -165,23 +165,23 @@ if sidebar_selection2 == 'contact':
                         </a>
                     </p>'''
                     return st.markdown(button_code, unsafe_allow_html=True)
-                st.write("[![Star](https://img.shields.io/github/stars/katanaml/sparrow.svg?logo=github&style=social)](https://github.com/katanaml/sparrow)")
-
-                col1, col2, col3 = st.columns(3)
-
-                st.markdown("<h1 style='text-align: center; color: black; font-weight: bold;'>Adrien Girod, Founder FlechTech</h1>",
-                                    unsafe_allow_html=True)
+                    st.write("[![Star](https://img.shields.io/github/stars/katanaml/sparrow.svg?logo=github&style=social)](https://github.com/katanaml/sparrow)")
     
-                st.info('FlècheTech is a Swiss start-up that builds beginner-friendly design tool for prototyping electronic circuit boards, requiring no prior knowledge and appealing to both engineers and hobbyists.')
-
-                icon_size = 20
-
-                st_button('youtube', 'https://www.youtube.com/@AndrejBaranovskij', 'Andrej Baranovskij YouTube channel', icon_size)
-                st_button('github', 'https://github.com/katanaml/sparrow', 'Sparrow GitHub', icon_size)
-                st_button('twitter', 'https://twitter.com/andrejusb', 'Follow me on Twitter', icon_size)
-                st_button('medium', 'https://andrejusb.medium.com', 'Read my Blogs on Medium', icon_size)
-                st_button('linkedin', 'https://www.linkedin.com/company/flechetech/', 'Follow me on LinkedIn', icon_size)
-                st_button('', 'https://katanaml.io', 'Katana ML', icon_size)
+                    col1, col2, col3 = st.columns(3)
+    
+                    st.markdown("<h1 style='text-align: center; color: black; font-weight: bold;'>Adrien Girod, Founder FlechTech</h1>",
+                                        unsafe_allow_html=True)
+        
+                    st.info('FlècheTech is a Swiss start-up that builds beginner-friendly design tool for prototyping electronic circuit boards, requiring no prior knowledge and appealing to both engineers and hobbyists.')
+    
+                    icon_size = 20
+    
+                    st_button('youtube', 'https://www.youtube.com/@AndrejBaranovskij', 'Andrej Baranovskij YouTube channel', icon_size)
+                    st_button('github', 'https://github.com/katanaml/sparrow', 'Sparrow GitHub', icon_size)
+                    st_button('twitter', 'https://twitter.com/andrejusb', 'Follow me on Twitter', icon_size)
+                    st_button('medium', 'https://andrejusb.medium.com', 'Read my Blogs on Medium', icon_size)
+                    st_button('linkedin', 'https://www.linkedin.com/company/flechetech/', 'Follow me on LinkedIn', icon_size)
+                    st_button('', 'https://katanaml.io', 'Katana ML', icon_size)
 
 
 
