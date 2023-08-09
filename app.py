@@ -31,7 +31,7 @@ html_header="""
      </h1>
 """
 # Logo de l'entreprise
-logo_path = "logo1.jpeg"
+logo_path = 'exemple_image/logo1.jpeg'
 if os.path.exists(logo_path):
     logo_image = Image.open(logo_path)
     st.sidebar.image(logo_image, width=400)
@@ -54,6 +54,6 @@ with st.sidebar:
 
 
 if sidebar_selection == 'Home':
-    video_file = open('video/FlechTec.mp4', 'rb')
+    video_file = open('exemple_image/logo1.jpeg', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
