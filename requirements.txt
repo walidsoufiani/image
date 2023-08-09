@@ -1,0 +1,5 @@
+os
+PIL
+streamlit
+streamlit_option_menu
+Pillow
