@@ -34,7 +34,7 @@ html_header="""
 logo_path = 'exemple_image/logo1.jpeg'
 if os.path.exists(logo_path):
     logo_image = Image.open(logo_path)
-    st.sidebar.image(logo_image, width=300)
+    st.sidebar.image(logo_image, width=390)
 #st.set_page_config(page_title="Prêt à dépenser - Dashboard", page_icon="", layout="wide")
 st.markdown('<style>body{background-color: #fbfff0}</style>',unsafe_allow_html=True)
 st.markdown(html_header, unsafe_allow_html=True)
